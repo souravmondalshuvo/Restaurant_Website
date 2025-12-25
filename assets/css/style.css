@@ -455,3 +455,4 @@ body.nav-active { overflow: hidden; }
     transition: var(--transition-1);
 }
 
+.navbar-link:is(:hover, :focus-visible, .active) .separator { opacity: 1; }
