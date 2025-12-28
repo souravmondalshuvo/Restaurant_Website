@@ -266,6 +266,15 @@ body.nav-active { overflow: hidden; }
     object-fit: cover;
 }
 
+.section-subtitle {
+    position: relative;
+    color: var(--gold-crayola);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing-2);
+    margin-block-end: 12px;
+}
+
 /* =================== PRELOAD =================== */
 
 .preload {
