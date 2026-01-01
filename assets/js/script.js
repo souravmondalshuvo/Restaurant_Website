@@ -105,3 +105,19 @@ const slideNext = function () {
 
     updateSliderPos();
 }
+
+heroSliderNextBtn.addEventListener("click", slideNext);
+
+const slidePrev = function () {
+
+    if(currentSlidePos >= heroSliderItems.length - 1) {
+        currentSlidePos = 0;
+    } else {
+        currentSlidePos++;
+    }
+
+    updateSliderPos();
+}
+
+heroSliderPrevBtn.addEventListener("click", slidePrev);
+
