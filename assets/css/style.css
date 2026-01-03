@@ -883,3 +883,5 @@ body.nav-active { overflow: hidden; }
 }
 
 .special-dish-content .span { color: var(--gold-crayola); }
+
+.special-dish .btn { margin-inline: auto;}
