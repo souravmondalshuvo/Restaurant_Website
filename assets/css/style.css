@@ -861,3 +861,8 @@ body.nav-active { overflow: hidden; }
 /* =================== SPECIAL DISH =================== */
 
 .special-dish-content { padding-block: 70px; }
+
+.special-dish .abs-img {
+    margin-inline: auto;
+    margin-block-end: 12px;
+}
