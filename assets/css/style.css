@@ -906,3 +906,12 @@ body.nav-active { overflow: hidden; }
     opacity: 0.7;
     transform: scale(1.05);
 }
+
+.menu-card .card-banner {
+    flex-shrink: 0;
+    border-radius: var(--radius-24);
+}
+
+.menu-card .card-title { transition: var(--transition-1); }
+
+.menu-card .card-title:is(:hover, :focus-visible) { color: var(--gold-crayola); }
