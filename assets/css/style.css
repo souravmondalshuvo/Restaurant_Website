@@ -887,3 +887,6 @@ body.nav-active { overflow: hidden; }
 .special-dish .btn { margin-inline: auto;}
 
 /* =================== MENU =================== */
+
+.menu .section-title { margin-block-end: 40px; }
+
