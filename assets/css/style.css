@@ -415,6 +415,12 @@ body.nav-active { overflow: hidden; }
     50% { transform: translateY(30px); }
 }
 
+.has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* =================== PRELOAD =================== */
 
 .preload {
