@@ -402,7 +402,7 @@ body.nav-active { overflow: hidden; }
 
 .btn-text:is(:hover, :focus-visible) { color: var(--white); }
 
-.shpae {
+.shape {
     display: none;
     position: absolute;
     max-width: max-content;
@@ -1007,17 +1007,17 @@ body.nav-active { overflow: hidden; }
     margin-block-start: 26px;
 }
 
-.menu .shpae {
+.menu .shape {
     display: block;
     width: 70%;
 }
 
-.menu .shpae-2 {
+.menu .shape-2 {
     top: 0;
     left: 0;
 }
 
-.menu .shpae-3 {
+.menu .shape-3 {
     bottom: 0;
     right: 0;
 }
@@ -1587,14 +1587,14 @@ textarea.input-field {
     /* SERVICE */
 
 
-    .service .shpae { display: block; }
+    .service .shape { display: block; }
 
-    .service .shpae-1 {
+    .service .shape-1 {
         bottom: 0;
         left: 0;
     }
 
-    .service .shpae-2 {
+    .service .shape-2 {
         top: 0;
         right: 0;
     }
@@ -1845,7 +1845,7 @@ textarea.input-field {
 
     .about-content { padding-inline-end: 90px; }
 
-    .about .shpae {
+    .about .shape {
         display: block;
         top: 46%;
         left: 0;
@@ -1860,15 +1860,15 @@ textarea.input-field {
         position: relative;
     }
 
-    .special-dish .shpae {
+    .special-dish .shape {
         display: block;
         right: 0;
         z-index: 1;
     }
 
-    .special-dish .shpae-1 { top: 45%; }
+    .special-dish .shape-1 { top: 45%; }
 
-    .special-dish .shpae-2 {
+    .special-dish .shape-2 {
         bottom: 0;
         transform: translateY(50%);
         width: max-content;
@@ -1880,14 +1880,14 @@ textarea.input-field {
 
     .features { overflow: visible; }
 
-    .features .shpae { display: block; }
+    .features .shape { display: block; }
 
-    .features .shpae-1 {
+    .features .shape-1 {
         top: -100px;
         right: 0;
     }
 
-    .features .shpae-2 {
+    .features .shape-2 {
         bottom: 80px;
         left: 0;
     }
