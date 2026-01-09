@@ -1855,5 +1855,22 @@ textarea.input-field {
     /* SPECIAL DISH */
 
 
-    
+    .special-dish {
+        overflow: visible;
+        position: relative;
+    }
+
+    .special-dish .shpae {
+        display: block;
+        right: 0;
+        z-index: 1;
+    }
+
+    .special-dish .shpae-1 { top: 45%; }
+
+    .special-dish .shpae-2 {
+        bottom: 0;
+        transform: translateY(50%);
+        width: max-content;
+    }
 }
