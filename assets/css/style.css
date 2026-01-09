@@ -1873,4 +1873,22 @@ textarea.input-field {
         transform: translateY(50%);
         width: max-content;
     }
+
+    
+    /* FEATURES */
+
+
+    .features { overflow: visible; }
+
+    .features .shpae { display: block; }
+
+    .features .shpae-1 {
+        top: -100px;
+        right: 0;
+    }
+
+    .features .shpae-2 {
+        bottom: 80px;
+        left: 0;
+    }
 }
