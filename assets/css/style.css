@@ -1582,4 +1582,108 @@ textarea.input-field {
     .topbar-item:not(.link) { display: flex; }
 
     .topbar .item-2 { margin-inline-end: auto; }
+
+
+    /* SERVICE */
+
+
+    .service .shpae { display: block; }
+
+    .service .shpae-1 {
+        bottom: 0;
+        left: 0;
+    }
+
+    .service .shpae-2 {
+        top: 0;
+        right: 0;
+    }
+
+
+    /* ABOUT */
+
+
+    .about .container {
+        grid-template-columns: 0.7fr 1fr;
+        gap: 30px;
+    }
+
+
+    /* SPECIAL DISH */
+
+
+    .special-dish {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+
+    .special-dish-content { padding-inline: 50px 25px; }
+
+    .special-dish-content .container { position: relative; }
+
+    .special-dish .section-subtitle::after,
+    .special-dish .btn { margin-inline: 0; }
+
+    .special-dish-content .wrapper { justify-content: flex-start; }
+
+    .special-dish .abs-img {
+        position: absolute;
+        top: 10px;
+        left: -40px;
+        animation: move 3s linear infinite;
+    }
+
+
+    /* MENU */
+
+
+    .menu .grid-list {
+        position: relative;
+        column-gap: 90px;
+    }
+
+    .menu .grid-list::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        height: 100%;
+        border-inline-start: 1px solid var(--white-alpha-20);
+    }
+
+
+    /* TESTIMONIALS */
+
+
+    .testi-text {
+        max-width: 910px;
+        margin-inline: auto;
+    }
+
+
+    /* RESERVATION */
+
+
+    .reservation-form {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+    }
+
+
+    /* FOOTER */
+
+
+    .footer .grid-list {
+        grid-template-columns: 0.45fr 1fr 0.45fr;
+        align-items: center;
+    }
+
+    .footer-brand {
+        grid-column: auto;
+        order: 1;
+        padding-block: 100px;
+    }
+
+    .footer-list:last-child { order: 2; }
 }
