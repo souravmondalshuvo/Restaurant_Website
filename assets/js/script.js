@@ -116,7 +116,7 @@ const slidePrev = function () {
     if(currentSlidePos >= heroSliderItems.length - 1) {
         currentSlidePos = 0;
     } else {
-        currentSlidePos++;
+        currentSlidePos--;
     }
 
     updateSliderPos();
